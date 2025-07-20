@@ -7,7 +7,7 @@ function SectionHeading({title}) {
         <div className='text-5xl w-2 h-14 mr-5 bg-blue-800 rounded-2xl border-blue-800 font-extrabold border-2'>
             
         </div>
-        <p className='text-4xl font-semibold'>{title}</p>
+        <p className='text-4xl font-semibold '>{title}</p>
     </div>
   ) 
 

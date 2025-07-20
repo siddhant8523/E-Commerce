@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "title": "Company",
+      "links": [
+        { "name": "About Us", "href": "/about" },
+        { "name": "Our Services", "href": "/services" },
+        { "name": "Privacy Policy", "href": "/privacy" },
+        { "name": "Affiliate Program", "href": "/affiliate" }
+      ]
+    },
+    {
+      "title": "Get Help",
+      "links": [
+        { "name": "FAQ", "href": "/faq" },
+        { "name": "Shipping", "href": "/shipping" },
+        { "name": "Returns", "href": "/returns" },
+        { "name": "Order Status", "href": "/order-status" },
+        { "name": "Payment Options", "href": "/payment" }
+      ]
+    },
+    {
+      "title": "Online Shop",
+      "links": [
+        { "name": "Watch", "href": "/shop/watch" },
+        { "name": "Bag", "href": "/shop/bag" },
+        { "name": "Shoes", "href": "/shop/shoes" },
+        { "name": "Dress", "href": "/shop/dress" }
+      ]
+    }
+  ],
+  "socialMedia": {
+    "title": "Follow Us",
+    "platforms": [
+      { "name": "Facebook", "icon": "facebook", "href": "https://facebook.com" },
+      { "name": "Twitter", "icon": "twitter", "href": "https://twitter.com" },
+      { "name": "Instagram", "icon": "instagram", "href": "https://instagram.com" },
+      { "name": "LinkedIn", "icon": "linkedin", "href": "https://linkedin.com" }
+    ]
+  }
+}

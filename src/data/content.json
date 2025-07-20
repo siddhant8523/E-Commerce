@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "title": "Women's Fashion",
+      "data": [
+        { "title": "Hoodie & Sweetshirt", "description": "Explore Now", "imageSrc": "/images/women/women1.png" },
+        { "title": "Coat & Paraks", "description": "Explore Now", "imageSrc": "/images/women/women2.png" },
+        { "title": "Tees & T-Shirt", "description": "Explore Now", "imageSrc": "/images/women/women3.png" },
+        { "title": "Shorts", "description": "Explore Now", "imageSrc":"/images/women/women4.png"},
+        { "title": "Traditionals", "description": "Explore Now", "imageSrc": "/images/women/women5.png" }
+      ]
+    },
+    {
+      "title": "Men's Fashion",
+      "data": [
+        { "title": "Shirts", "description": "Explore Now", "imageSrc": "/images/men/men1.png" },
+        { "title": "Jeans", "description": "Explore Now", "imageSrc": "/images/men/men3.png" },
+        { "title": "Hoodies", "description": "Explore Now", "imageSrc": "/images/men/men4.png" },
+        { "title": "T-Shirts", "description": "Explore Now", "imageSrc": "/images/men/men5.png" },
+        { "title": "Beachwear", "description": "Explore Now", "imageSrc": "/images/men/men2.png" }
+      ]
+    }
+  ]
+}
