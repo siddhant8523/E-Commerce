@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navigation = () => {
   return (
@@ -11,40 +12,47 @@ export const Navigation = () => {
       </div>
       <div>
         <ul className="flex gap-14">
-          <li className="text-gray-500 font-semibold hover:text-red-900 transition-transform duration-300 transform text-[15px] hover:scale-115">
-            <a href="/">Shop</a>
+          <li>
+            <NavLink to="/shop"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+                Shop
+            </NavLink>
+          </li>
+          <li>           
+            <NavLink to="/mens"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+                Mens
+            </NavLink>
           </li>
 
-          <li className="text-gray-500 font-semibold hover:text-red-900 transition-transform duration-300 transform text-[15px]  hover:scale-115">
-            <a href="/">Mens</a>
+          <li>    
+            <NavLink to="/womens"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+                Womens
+            </NavLink>
           </li>
-
-          <li className="text-gray-500 font-semibold hover:text-red-900 transition-transform duration-300 transform text-[15px]  hover:scale-115">
-            <a href="/">Womens</a>
-          </li>
-          <li className="text-gray-500 font-semibold hover:text-red-900 transition-transform duration-300 transform text-[15px]  hover:scale-115">
-            <a href="/">Kids</a>
+          <li>            
+            <NavLink to="/kids"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+                Kids
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="felx justify-center items-center ">
         {/* search field  */}
-        <form class="max-w-md mx-auto">
-          <div class="flex">
-            <div class="relative w-80">
+        <form className="max-w-md mx-auto">
+          <div className="flex">
+            <div className="relative w-80">
               <input
                 type="search"
                 id="location-search"
-                class="block p-2.5 w-full z-20 text-sm text-gray-900 outline-none  rounded border-gray-400 border-s-1 border border-gray-300 placeholder:text-gray-500"
+                className="block p-2.5 w-full z-20 text-sm text-gray-900 outline-none  rounded border-gray-400 border-s-1 border border-gray-300 placeholder:text-gray-500"
                 placeholder="Search"
                 required
               />
               <button
                 type="submit"
-                class="absolute top-0 end-0 h-full p-2.5 text-sm font-medium text-white bg-red-900 rounded-e-md border border-red-800 hover:bg-red-950 focus:ring-4 focus:outline-4 focus:ring-blue-300 "
+                className="absolute top-0 end-0 h-full p-2.5 text-sm font-medium text-white bg-red-900 rounded-e-md border border-red-800 hover:bg-red-950 focus:ring-4 focus:outline-4 focus:ring-blue-300 "
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -52,13 +60,13 @@ export const Navigation = () => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                   />
                 </svg>
-                <span class="sr-only">Search</span>
+                <span className="sr-only">Search</span>
               </button>
             </div>
           </div>
@@ -68,13 +76,13 @@ export const Navigation = () => {
         <ul className="flex items-center gap-8 text-2xl">
           <li>
             {" "}
-            <i class="fa-solid fa-user text-gray-500 hover:text-red-900 "></i>
+            <i className="fa-solid fa-user text-gray-500 hover:text-red-900 "></i>
           </li>
           <li>
-            <i class="fa-solid fa-heart text-gray-500 hover:text-red-900"></i>
+            <i className="fa-solid fa-heart text-gray-500 hover:text-red-900"></i>
           </li>
           <li>
-            <i class="fa-solid fa-cart-shopping text-gray-500 hover:text-red-900"></i>
+            <NavLink to="/cart"><i className="fa-solid fa-cart-shopping text-gray-500 hover:text-red-900"></i></NavLink>
           </li>
         </ul>
       </div>

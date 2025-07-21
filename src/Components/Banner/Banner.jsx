@@ -21,7 +21,7 @@ const Banner = () => {
                 <div className="flex justify-center items-center h-32">
                     <button className="group bg-red-600 hover:bg-rose-500 border-4 border-gray-200 hover:border-white text-white px-6 py-3 text-md font-semibold rounded-full inline-flex items-center transition-all duration-300">
                         <span>Start Shopping</span>
-                        <span className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"><i className="fa-solid fa-arrow-right"></i></span>
                     </button>
                 </div>
             </main>
