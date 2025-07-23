@@ -4,8 +4,8 @@ import shopBanner from '../../assets/img/shopBanner.jpg';
 const Banner = () => {
   return (
     <div
-      className="relative flex items-center justify-start bg-cover bg-center text-left h-svh w-full"
-       style={{ backgroundImage: `url(${shopBanner})`}}>
+      className="relative h flex items-center justify-start bg-cover bg-center text-left h-svh w-full"
+       style={{backgroundImage: `url(${shopBanner})`,width: "100%",height: "700px",}}>
         <div className=" absolute top-0 right-0 bottom-0 left-0"></div>
             <main className="px-10 lg:px-24 z-10">
                 <div className="text-left">

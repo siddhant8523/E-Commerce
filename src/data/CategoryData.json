@@ -1,0 +1,59 @@
+"categories":[
+  {
+    "id": 1,
+    "name": "Men",
+    "code": "MEN",
+    "path": "/men",
+    "description": "Men's Clothing",
+    "types": [
+      { "id": 1, "code": "JEANS", "name": "Jeans", "description": "Men's jeans" },
+      { "id": 2, "code": "SHIRTS", "name": "Shirts", "description": "Men's shirts" },
+      { "id": 3, "code": "SHORTS", "name": "Shorts", "description": "Men's shorts" },
+      { "id": 4, "code": "TSHIRTS", "name": "T-shirts", "description": "Men's t-shirts" },
+      { "id": 14, "code": "HOODIES", "name": "Hoodies", "description": "Men's Hoodie" }
+    ],
+    "meta_data": {
+      "colors": ["Black", "White", "Purple", "Gray", "Blue", "Red", "Orange", "Navy", "Grey", "Yellow", "Pink", "Green"],
+      "sizes": ["S", "M", "L", "XL", "XXL"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Women",
+    "code": "WOMEN",
+    "path": "/women",
+    "description": "Women's Clothing",
+    "types": [
+      { "id": 5, "code": "DRESSES", "name": "Dresses", "description": "Women's dresses" },
+      { "id": 6, "code": "CROPTOP", "name": "Crop Top", "description": "Women's crop tops" },
+      { "id": 7, "code": "SHORTS", "name": "Shorts", "description": "Women's shorts" },
+      { "id": 8, "code": "JEANS", "name": "Jeans", "description": "Women's jeans" },
+      { "id": 9, "code": "TSHIRTS", "name": "T-shirt", "description": "Women's T-shirts" },
+      { "id": 10, "code": "SWEATSHIRT", "name": "Hoodie/Sweatshirt", "description": "Women's sweatshirts" },
+      { "id": 11, "code": "TOPS", "name": "Tops", "description": "Women's tops" },
+      { "id": 12, "code": "BOXERS", "name": "Boxers", "description": "Women's boxers" },
+      { "id": 13, "code": "KURTIS", "name": "Kurtis", "description": "Women's kurtis" }
+    ],
+    "meta_data": {
+      "colors": ["Black", "White", "Purple", "Gray", "Blue", "Red", "Orange", "Navy", "Grey", "Yellow", "Pink", "Green"],
+      "sizes": ["S", "M", "L", "XL", "XXL"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kids",
+    "code": "KIDS",
+    "path": "/kids",
+    "description": "Kids Clothing",
+    "types": [
+      { "id": 15, "code": "TSHIRTS", "name": "T-shirts", "description": "Kids' t-shirts" },
+      { "id": 16, "code": "SHORTS", "name": "Shorts", "description": "Kids' shorts" },
+      { "id": 17, "code": "DRESSES", "name": "Dresses", "description": "Kids' dresses" },
+      { "id": 18, "code": "JEANS", "name": "Jeans", "description": "Kids' jeans" }
+    ],
+    "meta_data": {
+      "colors": [],
+      "sizes": []
+    }
+  }
+]

@@ -11,25 +11,25 @@ export const Navigation = () => {
         </a>
       </div>
       <div>
-        <ul className="flex gap-14">
+        <ul className="flex justify-center items-center gap-14">
           <li>
-            <NavLink to="/shop"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+            <NavLink to="/shop" end className={({ isActive }) =>isActive? "text-red-900 text-[17px] font-semibold  ": "text-gray-500 font-semibold text-[15px]"}>
                 Shop
             </NavLink>
           </li>
           <li>           
-            <NavLink to="/mens"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+            <NavLink to="/mens" end className={({ isActive }) =>isActive? "text-red-900 text-[17px] font-semibold ": "text-gray-500 font-semibold text-[15px]"}>
                 Mens
             </NavLink>
           </li>
 
           <li>    
-            <NavLink to="/womens"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+            <NavLink to="/womens" end className={({ isActive }) =>isActive? "text-red-900 text-[17px] font-semibold ": "text-gray-500 font-semibold text-[15px]"}>
                 Womens
             </NavLink>
           </li>
           <li>            
-            <NavLink to="/kids"className={({ isActive }) =>isActive? "text-gray-500 font-semibold text-[17px]": "text-red-900 text-[15px] font-semibold "}>
+            <NavLink to="/kids" end className={({ isActive }) =>isActive? "text-red-900 text-[17px] font-semibold ": "text-gray-500 font-semibold text-[15px]"}>
                 Kids
             </NavLink>
           </li>
